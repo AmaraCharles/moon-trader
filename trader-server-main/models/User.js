@@ -51,6 +51,14 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  minLimit: {
+    type: String,
+    required: false,
+  },
+  maxLimit: {
+    type: String,
+    required: false,
+  },
 
   serviceType: {
     type: String,
