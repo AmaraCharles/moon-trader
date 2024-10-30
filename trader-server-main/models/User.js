@@ -24,6 +24,10 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  interest: {
+    type: String,
+    required: false,
+  },
   winrate: {
     type: String,
     required: false,
